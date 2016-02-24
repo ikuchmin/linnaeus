@@ -1,5 +1,5 @@
 body{
-    background:url('./img/new-main_robin__last.jpg')
+    background:url('../img/new-main_robin__last.jpg')
 }
 
 video#bgvid {
@@ -15,7 +15,7 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(./img/new-main_robin__last.jpg) no-repeat;
+    background: url(../img/new-main_robin__last.jpg) no-repeat;
     background-size: cover;
 }
 
