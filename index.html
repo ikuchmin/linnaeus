@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/alfabank/css/style.css"/>
+        <title>Альфа-Банк</title>
+    </head>
+    <body>
+        <div id="main">
+            <h1>Домо́вый воробе́й (Passer domesticus)</h1>
+            <div class="description">
+                Домо́вый воробе́й (Passer domesticus (Linnaeus, 1758); устаревшее биноминальное название — Fringilla domestica Linnaeus, 1758) — наиболее распространённый вид из рода настоящих воробьёв (лат. Passer), семейства воробьиных (Passeridae). Это одна из самых известных птиц, обитающих по соседству с жилищем человека (отсюда её видовое название «домовый») и хорошо узнаваемых как по внешнему виду, так и по характерному чириканью. (с) <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9_%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D0%B5%D0%B9">Википедия</a>
+            </div>
+            <table>
+                <caption>Характеристика</caption>
+                <thead>
+                    <th>Длина тела, см.</th>
+                    <th>Масса, г.</th>
+                    <th>Окраска оперенья</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>до 16 см</td>
+                        <td>23 - 35</td>
+                        <td class="fullinfo">сверху коричневато-бурая, ржавчинного цвета с чёрными пятнами, снизу беловатая или серая. Щёки белые, ушная область бледно-серая. Крылья с желтовато-белой поперечной полосой.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="captain">
+                <strong>P.S.:</strong> В кино наиболее ярким представителем данного вида является Капитан Джек Воробей (англ. Captain Jack Sparrow)
+            </div>
+        </div>
+        <video autoplay preload="auto" poster="/alfabank/img/new-main_robin__last.jpg" id="bgvid">
+            <source src="/alfabank/img/new-main_robin(1).mp4" type="video/mp4">
+        </video>
+        <script type="text/javascript">
+            document.getElementById("bgvid")
+                .addEventListener("ended", function(event) {
+                    document.getElementById("main").style.display = "block";
+            })
+        </script>
+    </body>
+</html>
