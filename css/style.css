@@ -1,7 +1,7 @@
 .body {
     position: absolute;
     display: block;
-    background-image: url(/alfabank/img/new-main_robin__last_0-min.png);
+    background-image: url(../img/new-main_robin__last_0-min.png);
     background-color: darkgray;
     background-repeat: no-repeat;
     transition: background-image 1s;
